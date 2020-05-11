@@ -1,0 +1,19 @@
+roblems:-
+remote: Permission to UserName/repo.git denied to AnotherUserName.
+fatal: unable to access 'https://github.com/UserName/repo.git/': The requested URL returned error: 403
+
+Solutions
+You can solve this problem by using lots of methods. But below simple method is written which helps you to solve these issues.
+
+step 1: go to control panel
+step-2: then go to user accounts
+step 3: After that go to credential manager
+step 4: then Windows credentials
+step 5: go to Generic credentials
+step 6: finally delete the Github keys.
+
+After done above all the steps then use the push command
+->git push -u origin master
+
+After that, you would see a GitHub login form windows will appear. Then you need to log in with your GitHub email and password.
+After login, you can use push command it will 110% work
