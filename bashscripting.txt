@@ -1,0 +1,7 @@
+ bash scripting:\
+    if statement :
+     scelton of if statement::
+
+        if[condition]
+        then
+         statement
